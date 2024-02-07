@@ -10,6 +10,7 @@ const Navigation = () => {
     <>
       <ul>
         <li>
+          {/* href 파일시스템에 따른 라우트를 써주면 된다. */}
           <Link href="/">Home {path == "/" && "🔥"}</Link>
         </li>
         <li>
